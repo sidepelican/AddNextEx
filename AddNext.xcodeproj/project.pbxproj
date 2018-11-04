@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		370887CD218B44DC0087C859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370887CC218B44DC0087C859 /* AppDelegate.swift */; };
 		370887CF218B44DD0087C859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370887CE218B44DD0087C859 /* Assets.xcassets */; };
-		370887D2218B44DD0087C859 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370887D0218B44DD0087C859 /* MainMenu.xib */; };
 		370887E1218B44FE0087C859 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370887E0218B44FE0087C859 /* Cocoa.framework */; };
 		370887E4218B44FE0087C859 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370887E3218B44FE0087C859 /* SourceEditorExtension.swift */; };
 		370887E6218B44FE0087C859 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370887E5218B44FE0087C859 /* SourceEditorCommand.swift */; };
@@ -44,7 +43,6 @@
 		370887C9218B44DC0087C859 /* AddNext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddNext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370887CC218B44DC0087C859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		370887CE218B44DD0087C859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		370887D1218B44DD0087C859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		370887D3218B44DD0087C859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		370887D4218B44DD0087C859 /* AddNext.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AddNext.entitlements; sourceTree = "<group>"; };
 		370887DE218B44FE0087C859 /* AddNextEx.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AddNextEx.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +96,6 @@
 			children = (
 				370887CC218B44DC0087C859 /* AppDelegate.swift */,
 				370887CE218B44DD0087C859 /* Assets.xcassets */,
-				370887D0218B44DD0087C859 /* MainMenu.xib */,
 				370887D3218B44DD0087C859 /* Info.plist */,
 				370887D4218B44DD0087C859 /* AddNext.entitlements */,
 			);
@@ -206,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				370887CF218B44DD0087C859 /* Assets.xcassets in Resources */,
-				370887D2218B44DD0087C859 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,17 +242,6 @@
 			targetProxy = 370887E9218B44FE0087C859 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		370887D0218B44DD0087C859 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				370887D1218B44DD0087C859 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		370887D5218B44DD0087C859 /* Debug */ = {
