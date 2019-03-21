@@ -1,9 +1,11 @@
 # AddNextEt
 Xcode Source Editor Extentsion
 
-add next selection like sublime and vscode;
+add next selection like Sublime Text and VSCode;
 
 ## Example
+
+![screenshot](screenshot.gif)
 
 (Getting Ready)
 
