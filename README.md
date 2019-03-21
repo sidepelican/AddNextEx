@@ -5,6 +5,8 @@ add next selection like Sublime Text and VSCode;
 
 ## Example
 
+![screenshot](screenshot.gif)
+
 (Getting Ready)
 
 # Install
