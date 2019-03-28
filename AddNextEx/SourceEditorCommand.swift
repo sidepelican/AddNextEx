@@ -57,7 +57,7 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
             let line = buffer.lines.object(at: index) as! NSString
             let lineRange: NSRange
             if index == range.end.line {
-                lineRange = NSRange(location: column, length: range.end.column)
+                lineRange = NSRange(location: column, length: range.end.column - column)
             } else {
                 lineRange = NSRange(location: column, length: line.length - column)
             }
