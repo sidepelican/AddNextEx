@@ -3,6 +3,12 @@ Xcode Source Editor Extentsion
 
 add next selection like Sublime Text and VSCode;
 
+**This extension was fulfilled its duty.**
+
+
+This function is availavle in the latest Xcode.
+Open `Find` menu, and select `Select Next Occurrence` or `Select Previous Occurrence`.
+
 ## Example
 
 ![screenshot](screenshot.gif)
